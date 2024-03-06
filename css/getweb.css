@@ -1,0 +1,258 @@
+body{
+	background-color:lightgrey;
+	font-family: 'Times New Roman', Times, serif;
+}
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+  }
+
+  nav{
+	background:grey;
+	height: 80px;
+	width: 100%;
+  }
+  label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+  }
+  nav ul{
+	float: right;
+	margin-right: 20px;
+  }
+  nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+  }
+  nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+  }
+  a:hover{
+	background:black;
+	transition: .5s;
+  }
+  .checkbtn{
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+  }
+  #check{
+	display: none;
+  }
+  @media (max-width: 952px){
+	label.logo{
+	  font-size: 30px;
+	  padding-left: 50px;
+	}
+	nav ul li a{
+	  font-size: 16px;
+	}
+  }
+  @media (max-width: 858px){
+	.checkbtn{
+	  display: block;
+	}
+	ul{
+	  position: fixed;
+	  width: 100%;
+	  height: 100vh;
+	  background: #2c3e50;
+	  top: 80px;
+	  left: -100%;
+	  text-align: center;
+	  transition: all .5s;
+	}
+	nav ul li{
+	  display: block;
+	  margin: 50px 0;
+	  line-height: 30px;
+	}
+	nav ul li a{
+	  font-size: 20px;
+	}
+	a:hover,a.active{
+	  background: none;
+	  color: #0082e6;
+	}
+	#check:checked ~ ul{
+	  left: 0;
+	}
+  }
+  section{
+	background: url(bg1.jpg) no-repeat;
+	background-size: cover;
+	height: calc(100vh - 80px);
+  }
+  
+  .divsty{
+	  height: 370px;
+	  width: 400px;
+	  background-color: grey;
+	  border-radius: 5px;
+	  margin: 0 auto;
+	  float: right;
+	  margin-right: 180px;
+	  margin-top: 120px;
+  
+  }
+  .divsty2{
+	justify-content: center;
+	  height: 100px;
+	  width: 400px;
+	  
+	  float: left;
+	  margin-top: 140px;
+	  margin-left: 230px;
+  }
+  .divsty3{
+	  height: 100px ;
+	  width:530px; 
+	  float: left;
+	  margin-left: 130px;
+  }
+  .divsty4{
+	  float: right; 
+	  margin-right: 180px;
+	  height:50px; 
+	  width: 400px; 
+	  
+	  font-size: 105%;
+	  font-family: arial;
+  
+  }
+  .formsty{
+	  
+  padding-top: 35px ;	
+  
+  
+  }
+  .insty{
+  
+	  margin-left: 0px;
+	  width: 352px ;
+	  height: 48px;
+	  border-radius: 5px;
+	  border: 1px solid lightgray;
+	  padding: 0px 8px;
+  
+  
+  }
+  .btnsty {
+	  width: 350px;
+	  height: 48px;
+	  text-align: center;
+	  font-size: 180%;
+	  font-family: 'Times New Roman', Times, serif;
+	  color:  white ;
+	  border-radius: 5px;
+	  background-color:black;
+	  margin-top: 30px;
+	  margin-left: 0px;
+	  border: .5px ;
+	  
+  
+  }
+  .btnnsty{
+	  height: 48px;
+	  width: 200px;
+	  text-align: center;
+	  color: white ;
+	  font-size: 140%;
+	  font-family: 'Times New Roman', Times, serif;
+	  background-color: black;
+	  margin-top: 20px;
+	  margin-left: 0px;
+	  border-radius: 5px;
+	  border: .5px ;
+	  
+  
+  }
+  .feedfm{
+
+    margin-top: 50px;
+    
+  }
+  #feed{
+    height: 300px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+  }
+  .fbtn{
+    height: 45px;
+    width: 200px;
+    padding: 10px;
+    font-size: 120%;
+    margin-top: 20px;
+    border-radius: 10px;
+	font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background-color: black;
+  }
+  .abt{
+    padding: 30px;
+    height: 485px;
+    width: 800px;
+    background-color: grey;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+  .fmain{
+	width: 1340px;
+	height: 650px;
+	padding: 20px;
+	
+
+  }
+  .innl{
+	padding-top: 50px;
+	display: block;
+	box-shadow: 5px 10px black ;
+	float: left;
+	width: 250px;
+	height: 200px;
+	background-color: grey;
+	border-radius: 20px;
+	margin-left: 60px;
+	margin-top: 50px;
+	font-family: 'Times New Roman', Times, serif;
+	text-align: center;
+
+
+  }
+ .aaa{
+	text-decoration: none;
+}
+.buti{
+	font-family: 'Times New Roman', Times, serif;
+	margin-top: 15px;
+	width: 70px;
+	height: 30px;
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+}
+.full{
+	width: 1400px;
+}
+  
